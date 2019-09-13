@@ -10,7 +10,7 @@ int main()
     int res = 0;
     int flag = 0;
 
-    printf("Calculator prog v1.0 by Jean\n");
+    printf("Calculator prog v2.0 by Jean\n");
     while(1)
     {
         //printing menu

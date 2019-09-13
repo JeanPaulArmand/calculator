@@ -14,7 +14,7 @@ int main()
     while(1)
     {
         //printing menu
-        if(flag==0)
+        if( flag == 0 )
         {
         printf("\nselect from menu \n");
         printf("1 for add\n");
@@ -23,10 +23,10 @@ int main()
         printf("4 for dev\n");
         printf("0 for exit\n");
         scanf("%d",&com);
-        flag=1;
+        flag = 1;
         }
         //basic logic of prog
-        if ( com==1 )
+        if ( com == 1 )
         {
             printf("\nenter val1\n");
             scanf("%d",&val1);
@@ -38,11 +38,11 @@ int main()
 	    flag=0;
 	    
 	}
-	if( com==0 )
+	if( com == 0 )
 	{
 		exit(0);
 	}
-	if(com==2)
+	if( com == 2 )
 	{
 	    printf("\nenter val1\n");
 	    scanf("%d",&val1);
@@ -53,7 +53,7 @@ int main()
 	    sleep(1);
 	    flag = 0;  
 	}
-	if(com==3)
+	if( com == 3 )
 	{
 	    printf("\nenter val1\n");
 	    scanf("%d",&val1);
@@ -64,7 +64,7 @@ int main()
 	    sleep(1);
 	    flag = 0;
    	}
-	if(com==4)
+	if( com == 4 )
 	{
 	    printf("\nenter val1\n");
 	    scanf("%d",&val1);

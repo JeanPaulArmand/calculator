@@ -37,7 +37,7 @@ int main()
 	    sleep(1);    
 	    flag=0;
 	    
-        }
+	}
 	if( com==0 )
 	{
 		exit(0);
